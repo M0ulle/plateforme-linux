@@ -1,0 +1,10 @@
+status.maelle.lab-cesi.fr {
+	reverse_proxy kuma:3001
+}
+
+notif.maelle.lab-cesi.fr {
+	reverse_proxy ntfy:80
+}
+glpi.maelle.lab-cesi.fr {
+	reverse_proxy glpi:80
+}
